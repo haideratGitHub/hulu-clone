@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# hulu clone
 
-## Getting Started
+[![Language](https://img.shields.io/badge/Language-Javascript-blue.svg?style=flat)](https://www.javascript.com/)
+[![Framework](https://img.shields.io/badge/Framework-Next.js-brightgreen.svg?style=flat)](https://nextjs.org)
+![Release](https://img.shields.io/badge/release-v1.0-orange.svg?style=flat)
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This is hulu web clone build with Next.js and Tailwind CSS. The core functionalities of this build include:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- It is completely responsive
+- I used heroicons in this project
+- I used flexbox with CSS grid to support screen sizes upto 4K
+- I used flipmove animation to switch between different movies on same page
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Next.js
+- Tailwind CSS
+- Flexbox and CSS grid
+- Heroicons
+- REST API
+- TMDB movie API
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## What I learnt
 
-## Learn More
+- Lazy loading using nextjs Image tag
+- How to use images from external domains in nextjs (configuration)
+- How to apply global styling in tailwind css
+- bunch of new tailwind css styling techniques
+- How to add custom screen sizes break point in tailwind
+- How to use grid and flex together on different screen sizes
+- How to add switch animation using FlipMove
 
-To learn more about Next.js, take a look at the following resources:
+## Vercel Hosted Preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can check out hosted preview of app https://hulu-clone-nu-ten.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Running locally
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`$ git clone https://github.com/haideratGitHub/hulu-clone.git` <br/>
+`$ cd hulu-clone` <br/>
+`$ npm install && npm run dev` <br/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Disclaimer
+
+This build is purely for learning purpose. I do not own any logo/design or have any affiliation with hulu. This hulu clone is just to showcase my skillset in web app development in Next.js framwork.
